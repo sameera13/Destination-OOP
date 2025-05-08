@@ -14,7 +14,7 @@ class Bag {
     assignOwner(person) {
       this.#owner = person;
     }
-  }
+  }  
   
   module.exports = Bag;
   
