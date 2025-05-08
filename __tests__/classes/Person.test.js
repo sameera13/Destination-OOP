@@ -17,7 +17,7 @@ describe("Person class", () => {
     const person = new Person("Dan", "DFW");
     expect(person.getBags()).toEqual([]);
   });
-
+  
   test("should add a bag", () => {
     const person = new Person("Anna", "SFO");
     const bag = new Bag(22, 555);

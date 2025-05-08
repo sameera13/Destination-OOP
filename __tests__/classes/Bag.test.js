@@ -1,6 +1,7 @@
 const Bag = require("../../classes/Bag");
 const Person = require("../../classes/Person");
 
+
 describe("Bag class", () => {
   test("should create a Bag instance", () => {
     const bag = new Bag(23, 101);
